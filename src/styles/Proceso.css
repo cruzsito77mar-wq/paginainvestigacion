@@ -2,7 +2,7 @@
 
 /* ===== CONTENEDOR GENERAL ===== */
 .proceso-container {
-  padding: 90px 25px;
+  padding: clamp(70px, 10vw, 90px) 25px;
   background: linear-gradient(
     180deg,
     #ffffff 0%,
@@ -15,10 +15,10 @@
 
 /* ===== TÍTULO ===== */
 .proceso-title {
-  font-size: 2.8rem;
+  font-size: clamp(2.2rem, 5vw, 2.8rem);
   font-weight: 800;
   color: #003a75;
-  margin-bottom: 70px;
+  margin-bottom: clamp(50px, 8vw, 70px);
   letter-spacing: 0.5px;
 }
 
@@ -29,7 +29,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 65px;
+  gap: clamp(45px, 6vw, 65px);
 }
 
 /* Línea central */
@@ -55,15 +55,15 @@
 
 /* ===== ÍCONO ===== */
 .step-icon {
-  width: 88px;
-  height: 88px;
+  width: clamp(70px, 10vw, 88px);
+  height: clamp(70px, 10vw, 88px);
   background: linear-gradient(135deg, #0056c7, #003a75);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 4vw, 2rem);
   z-index: 10;
   box-shadow: 0 12px 35px rgba(0, 86, 199, 0.45);
   transition: transform 0.6s ease, box-shadow 0.6s ease;
@@ -79,7 +79,7 @@
   margin-top: 26px;
   background: #ffffff;
   border-left: 6px solid #0056c7;
-  padding: 30px 34px;
+  padding: clamp(24px, 4vw, 30px) clamp(26px, 5vw, 34px);
   border-radius: 16px;
   width: 65%;
   box-shadow: 0 18px 40px rgba(0, 58, 117, 0.18);
@@ -93,7 +93,7 @@
 
 /* ===== TEXTO ===== */
 .step-number {
-  font-size: 2.4rem;
+  font-size: clamp(2rem, 5vw, 2.4rem);
   font-weight: 800;
   color: #003a75;
   opacity: 0.6;
@@ -101,18 +101,18 @@
 
 .step-content h2 {
   color: #0056c7;
-  font-size: 1.45rem;
+  font-size: clamp(1.25rem, 3.5vw, 1.45rem);
   margin-bottom: 10px;
   font-weight: 700;
 }
 
 .step-content p {
   color: #1e4f8f;
-  font-size: 1rem;
+  font-size: clamp(0.95rem, 3vw, 1rem);
   line-height: 1.6;
 }
 
-/* ===== NUEVA ANIMACIÓN ===== */
+/* ===== ANIMACIÓN ===== */
 .slide-reveal {
   opacity: 0;
   transform: translateY(50px);
@@ -128,8 +128,8 @@
   }
 }
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 800px) {
+/* ===== TABLET ===== */
+@media (max-width: 900px) {
   .step-content {
     width: 85%;
   }
@@ -147,13 +147,13 @@
   }
 }
 
+/* ===== MÓVIL ===== */
 @media (max-width: 500px) {
-  .proceso-title {
-    font-size: 2.3rem;
-  }
-
   .step-content {
     width: 100%;
-    padding: 24px;
+  }
+
+  .timeline::before {
+    left: 8%;
   }
 }
