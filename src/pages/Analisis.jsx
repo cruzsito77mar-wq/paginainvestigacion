@@ -7,9 +7,8 @@ import {
   Stethoscope,
   BarChart3,
   PieChart,
-  FileText,
-  BookOpen
-} from "lucide-react";
+  FileText
+} from "lucide-react"; // Eliminé BookOpen que no se usa
 
 export default function Analisis() {
   return (
@@ -90,7 +89,7 @@ export default function Analisis() {
         </div>
       </section>
 
-      {/* SOFWTARE */}
+      {/* SOFTWARE */}
       <section className="analisis-section">
         <h2 className="section-title">Soporte en Análisis de Datos</h2>
 
