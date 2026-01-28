@@ -207,16 +207,16 @@ export default function Home() {
       >
         <h2>Líneas Científicas que Lidera</h2>
         <div className="science-grid">
-          <div className="science-card"><BookOpen /><h3>Biología Molecular y Diagnóstico</h3><p>PCR, RT-PCR, qPCR, oncología molecular y genética médica.</p></div>
-          <div className="science-card"><BookOpen /><h3>Bioinformática y Análisis de Datos</h3><p>NGS, Big Data biomédico e IA aplicada.</p></div>
-          <div className="science-card"><BookOpen /><h3>Farmacología Clínica</h3><p>Ensayos clínicos y farmacovigilancia.</p></div>
-          <div className="science-card"><BookOpen /><h3>Investigación Clínica</h3><p>Protocolos, bioestadística y redacción científica.</p></div>
-          <div className="science-card"><BookOpen /><h3>Epidemiología y Salud Pública</h3><p>Vigilancia y evaluación de programas.</p></div>
-          <div className="science-card"><BookOpen /><h3>Gestión de Calidad</h3><p>ISO, BPL y certificaciones hospitalarias.</p></div>
-          <div className="science-card"><BookOpen /><h3>Biotecnología en Salud</h3><p>Biomarcadores, kits diagnósticos y vacunas.</p></div>
-          <div className="science-card"><BookOpen /><h3>Microbiología Clínica</h3><p>Resistencia antimicrobiana y control de infecciones.</p></div>
-          <div className="science-card"><BookOpen /><h3>Economía de la Salud</h3><p>Costo-efectividad y tecnologías sanitarias.</p></div>
-          <div className="science-card"><BookOpen /><h3>Educación en Salud</h3><p>Docencia y capacitación especializada.</p></div>
+          <div className="science-card"><BookOpen /><h3>Biología Molecular y Diagnóstico</h3><p>PCR, RT-PCR, qPCR, oncología molecular, genética médica y diagnóstico de enfermedades infecciosas en hospitales, laboratorios clínicos e industria biotecnológica.</p></div>
+          <div className="science-card"><BookOpen /><h3>Bioinformática y Análisis de Datos</h3><p>Análisis de datos ómicos, secuenciación masiva (NGS), Big Data biomédico e inteligencia artificial aplicada a medicina de precisión.</p></div>
+          <div className="science-card"><BookOpen /><h3>Farmacología Clínica y Farmacovigilancia</h3><p>Ensayos clínicos, seguridad de medicamentos, estudios de efectividad, costo-beneficio y evaluación terapéutica en industria y hospitales.</p></div>
+          <div className="science-card"><BookOpen /><h3>Investigación Clínica y Metodología</h3><p>Diseño de protocolos, bioestadística, redacción científica, publicaciones indexadas y gestión de proyectos de investigación.</p></div>
+          <div className="science-card"><BookOpen /><h3>Epidemiología y Salud Pública</h3><p>Vigilancia epidemiológica, epidemiología clínica y evaluación de programas de salud en instituciones públicas y privadas.</p></div>
+          <div className="science-card"><BookOpen /><h3>Gestión de Calidad y Acreditación</h3><p>Implementación de ISO 15189, ISO 9001, Buenas Prácticas de Laboratorio y certificaciones hospitalarias como consultoría especializada.</p></div>
+          <div className="science-card"><BookOpen /><h3>Biotecnología Aplicada a la Salud</h3><p>Desarrollo de kits diagnósticos, biomarcadores, vacunas y terapias avanzadas con alto impacto clínico y tecnológico.</p></div>
+          <div className="science-card"><BookOpen /><h3>Microbiología Clínica</h3><p>Diagnóstico microbiológico, resistencia antimicrobiana, control de infecciones y estudios clínicos hospitalarios.</p></div>
+          <div className="science-card"><BookOpen /><h3>Economía de la Salud</h3><p>Evaluación de tecnologías sanitarias, análisis costo-efectividad, impacto presupuestal y estudios farmacoeconómicos.</p></div>
+          <div className="science-card"><BookOpen /><h3>Educación en Ciencias de la Salud</h3><p>Docencia universitaria, diplomados, cursos de educación continua y capacitación especializada para personal de salud.</p></div>
         </div>
       </section>
 
