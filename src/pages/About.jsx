@@ -9,7 +9,7 @@ import {
   Activity,
   FlaskConical,
 } from "lucide-react";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/logo.png";
 
 export default function About() {
   return (

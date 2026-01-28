@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 import "../styles/Navbar.css";
-import Logo from "../assets/LogoN.png";
+import Logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (

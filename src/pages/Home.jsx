@@ -12,7 +12,7 @@ import {
   BookOpen
 } from "lucide-react";
 import "../styles/Home.css";
-import LogoOmega from "../assets/LogoN.png";
+import LogoOmega from "../assets/logo.png";
 
 export default function Home() {
   const sectionsRef = useRef([]);
