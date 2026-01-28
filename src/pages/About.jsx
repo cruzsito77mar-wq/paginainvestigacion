@@ -9,7 +9,6 @@ import {
   ShieldCheck,
   TrendingUp,
 } from "lucide-react";
-import Logo from "../assets/logo.png";
 
 export default function About() {
   return (
@@ -44,7 +43,8 @@ export default function About() {
           </div>
 
           <div className="about-hero-image">
-            <img src={Logo} alt="Grupo Omega" className="about-logo" />
+            {/* Cambiado a public/logo.png para que Vercel siempre lo encuentre */}
+            <img src="/logo.png" alt="Grupo Omega" className="about-logo" />
           </div>
         </div>
       </section>
@@ -227,6 +227,11 @@ export default function About() {
             </ul>
           </div>
         </div>
+      </section>
+
+      {/* ===== ESLOGAN ===== */}
+      <section className="about-eslogan">
+        <h2>TU PROYECTO NO AVANZA SOLO<br/>AVANZA CONTIGO.</h2>
       </section>
 
     </div>

@@ -10,7 +10,6 @@ import {
 } from "lucide-react";
 
 import "../styles/Navbar.css";
-import Logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (
@@ -19,7 +18,8 @@ export default function Navbar() {
 
         <Link to="/" className="logo-full">
           <div className="logo-wrapper">
-            <img src={Logo} alt="Alpha & Omega Logo" className="logo-img" />
+            {/* Cambiado a public/logo.png */}
+            <img src="/logo.png" alt="Alpha & Omega Logo" className="logo-img" />
           </div>
 
           <div className="brand-text">
@@ -71,4 +71,3 @@ export default function Navbar() {
     </header>
   );
 }
-

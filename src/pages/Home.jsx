@@ -12,7 +12,6 @@ import {
   BookOpen
 } from "lucide-react";
 import "../styles/Home.css";
-import LogoOmega from "../assets/logo.png";
 
 export default function Home() {
   const sectionsRef = useRef([]);
@@ -80,7 +79,8 @@ export default function Home() {
           </div>
 
           <div className="hero-impact-card">
-            <img src={LogoOmega} alt="Grupo Omega" className="omega-logo" />
+            {/* Cambiado a public/logo.png */}
+            <img src="/logo.png" alt="Grupo Omega" className="omega-logo" />
             <div className="impact-lines">
               <div>
                 <Microscope />
